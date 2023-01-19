@@ -70,22 +70,20 @@ Main
     color: white;
 }
 
+.name, .job, .email{
+    font-family: 'DM Sans', sans-serif;
+    line-height: 33px;
+}
+
 h2{
     font-size: 20px;
-    font-family: 'DM Sans', sans-serif;
-    line-height: 30px;
 }
 
 h3{
     font-size: 16px;
-    font-family: 'DM Sans', sans-serif;
-    line-height: 30px;
-
 }
 
 h4{
     font-size: 16px;
-    font-family: 'DM Sans', sans-serif;
-    line-height: 30px;
     color: #56afd4
 }
