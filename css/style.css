@@ -4,12 +4,21 @@
     box-sizing: border-box;
 }
 
+
+/*
+***********
+Header
+***********
+*/
+
 header{
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
     font-family: 'Rubik', sans-serif;
+    padding-bottom: 50px;
 }
+
 
 h1{
     padding: 30px;
@@ -17,3 +26,32 @@ h1{
     color: fuchsia;
     font-size: 40px;
 }
+
+/*
+***********
+Main
+***********
+*/
+
+.container{
+    background-color: pink;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.box{
+    border: 2px solid green;
+    height: 100px;
+    width: calc(100% / 3 - 20px);
+    float: left;
+    margin: 10px;
+}
+
+
